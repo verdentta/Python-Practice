@@ -1,1 +1,1 @@
-SELECT * FROM monthly_km_by_fuel_type
+SELECT * FROM  converted_fuel_rates
