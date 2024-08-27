@@ -1,0 +1,57 @@
+Use selenium to extract the movie data from top 250 (includes movie title, year, and rating
+load it into a msql table
+take the scraped data and load it into a data frame as well in python for alteration
+then you're gonna convert the rating from 1-10 scale to 1-5 scale (enhance) 
+then load it into a new msql table 
+then do a query to join two both database tables and generate a report 
+
+
+On laptop 
+
+install
+
+on computer:
+php installation
+python installation
+chromedriver-download it into your project folder
+
+for vs extensions:
+live server
+sql tools
+pip install selenium
+pip install python
+install matplotlib
+and mysql connector 
+pip install pandas
+
+in your php installation do this:
+
+;extension=mysqli -> extension=mysqli
+
+
+for php configuration:
+
+3
+
+How to Enable mysqli in php.ini
+
+Edit/uncomment by removing ';'(colon) the following config in php.ini: 1st (uncomment and add config):
+include_path = "C:\php\includes"
+2nd (uncomment):
+extension_dir = "ext"
+3rd (uncomment and edit config):
+extension=C:/PHP/ext/php_mysql.dll
+extension=C:/PHP/ext/php_mysqli.dll
+Restart the IIS server
+Make sure that mysql is running on the system.
+How to load php.ini file
+
+Rename any one of the file php.ini-production/php.ini-development to php.ini from C:\PHP(note now the extention will be ini i.e "php.ini").
+After renaming to php.ini file restart server
+See the changes in http://localhost/phpinfo.php
+
+
+
+
+
+
